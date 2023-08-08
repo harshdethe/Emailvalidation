@@ -1,6 +1,8 @@
 from plyer import notification                                           #player module for notification
 import time                                                                # time module for notification one by one
 
+
+
 if __name__ == '__main__':                                              #for seperate the code
     while True:                                                         #while loop for multiple time notification
         notification.notify(                                             #we create desktop notificatio with the help of notify
